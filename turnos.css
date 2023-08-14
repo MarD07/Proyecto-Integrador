@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+:root {
+    --background: #fff;
+    --primary: #000000;
+    --secondary: #f1c5f5;
+    --tertiary: #f7a5ff;
+    --quaternary: hwb(0 87% 10% / 0.904);
+    --btnbg: #9343b3;
+
+  /* Textos */
+
+    --text-black: #000000;
+    --text-white: #fff;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    max-width: 1200px;
+}
+
+header {
+background: var(--background);
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 85px;
+padding: 0px 30px 0 30px;
+position: fixed;
+width: 100%;
+}
+
+.navbar ul {
+list-style-type: none;
+display: flex;
+gap: 30px;
+}
+
+.navbar {
+display: flex;
+}
+
+.navbar label img {
+display: none;
+}
+
+#toggle-menu {
+display: none;
+}
+
+.navbar-link {
+color: #000000;
+font-weight: 300;
+}
+
+header a{
+    font-size: 20px;
+    padding: 10px;
+}
+
+main {
+    max-width: 1200px;
+}
+
+.form-title {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 100px 30px 30px 30px;
+}
+
+.form-form {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    font-size: 16px;
+    gap: 5px;
+}
+
+.form-form {
+    width: 800px;
+    background: var(--tertiary);
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.form-form label {
+    display: block;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.controls {
+    width: 100%;
+    background: var(--background);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.botons {
+    width: 20%;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    display: block;
+    cursor: pointer;
+}
+
+.contact-title h2{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 50px 20px 20px 20px;
+}
+
+.contact-info h3{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 60px;
+    padding: 30px;
+}
+
+.contact-info li {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    gap: 15px;
+}
+
+.contact-map {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+footer {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 14px;
+    padding: 20px;
+}
+
