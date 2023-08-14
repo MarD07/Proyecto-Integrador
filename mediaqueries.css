@@ -4,8 +4,8 @@
     }
 
     .navbar ul {
-        background: #fff;
-        width: 50%;
+        background: #b65db6;
+        width: 60%;
         height: calc(50vh - 85px);
         position: absolute;
         top: 80px;
@@ -16,12 +16,24 @@
         display: none;
     }
 
+    .navbar ul li a {
+        font-size: 35px;
+    }
+
     .navbar label img {
         display: block;
     }
 
     #toggle-menu:checked ~ .navbar-list {
         display: flex;
+    }
+
+    .trends-four-img {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        height: 400px;
+        padding: 20px;
     }
 
     .mission-title {
@@ -33,10 +45,9 @@
 
 @media (max-width:990px) {
     header {
-        width: 100%;
+        width: 95%;
     }
     .hero-img {
-        width: 700px;
         height: 500px;
     }
 
@@ -50,7 +61,13 @@
 
     .benefits-benefits {
         flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         gap: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+
     }
 
     .servicios-cards {
@@ -65,6 +82,10 @@
 
 
 @media (max-width: 850px) {
+    .hero-img {
+        height: 400px;
+    }
+
     .form-form {
         width: 500px;
     }
@@ -77,12 +98,9 @@
 
 
 @media (max-width:770px) {
-    .hero-img {
-        display: none;
-    }
-
-    .info-text h1 {
-        padding: 75px 0 0 0;
+    .navbar ul {
+        width: 90%;
+        height: calc(70vh - 85px);
     }
 
     .trends-four-img {
@@ -93,11 +111,26 @@
 
 
 @media (max-width:700px) {
-
     .trends-one img,
     .trends-two img,
     .trends-three img {
         display: none;
+    }
+}
+
+
+
+@media (max-width:640px) {
+    .hero-img {
+        display: none;
+    }
+    .info-text h1 {
+        padding: 75px 0 0 0;
+    }
+
+    .login-login h2 {
+        padding-left: 25px;
+        padding-right: 25px;
     }
 }
 
