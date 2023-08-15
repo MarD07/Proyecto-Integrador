@@ -88,7 +88,12 @@ main {
     padding: 100px 0px 0px 30px;
 }
 
-.servicios-cards {
+.servicios-cards-one,
+.servicios-cards-two,
+.servicios-cards-three,
+.servicios-cards-four,
+.servicios-cards-five,
+.servicios-cards-six {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -96,19 +101,34 @@ main {
     gap: 10px;
 }
 
-.servicios-cards h3 {
+.servicios-cards-one h3,
+.servicios-cards-two h3,
+.servicios-cards-three h3,
+.servicios-cards-four h3,
+.servicios-cards-five h3,
+.servicios-cards-six h3 {
     font-size: 20px;
     gap: 20px;
     padding: 20px 0px 0px 0px;
 }
 
-.servicios-cards img {
+.servicios-cards-one img,
+.servicios-cards-two img,
+.servicios-cards-three img,
+.servicios-cards-four img,
+.servicios-cards-five img,
+.servicios-cards-six img {
     width: 520px;
     height: 350px;
     padding: 20px;
 }
 
-.servicios-cards p {
+.servicios-cards-one p,
+.servicios-cards-two p,
+.servicios-cards-three p,
+.servicios-cards-four p,
+.servicios-cards-five p,
+.servicios-cards-six p {
     font-size: 16px;
     gap: 10px;
     padding: 20px;
